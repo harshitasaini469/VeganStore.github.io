@@ -1,0 +1,322 @@
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    
+    body {
+        min-height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    html {
+        height: 100%;
+    }
+    
+    #buy-now-btn {
+        background-color: rgb(170, 210, 54);
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+    
+    #buy-now-btn:hover {
+        box-shadow: 0.5px 0.5px 5px black;
+    }
+    /*Css for Home id section*/
+    
+    #intro {
+        background-image: url('images/landing-background.png');
+        width: 100%;
+        height: 100vh;
+        background-position: left;
+    }
+    
+    #intro-text {
+        position: relative;
+        top: 60%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    
+    #intro-heading {
+        color: black;
+        font-family: 'Poppins', sans-serif;
+        font-size: 44px;
+        font-weight: 600;
+        letter-spacing: 8.8px;
+        line-height: 1.2;
+        margin-bottom: 0;
+    }
+    
+    #description {
+        margin: 0;
+        font-family: 'Poppins', sans-serif;
+        font-size: 16px;
+        letter-spacing: 0.5px;
+        font-weight: 400;
+        color: #8b8b99;
+    }
+    /* Css for step id section */
+    
+    #step1 {
+        background-color: #5acda6;
+    }
+    
+    #step2 {
+        background-color: #91ac41;
+    }
+    
+    #step3 {
+        background-color: #e4b476;
+    }
+    
+    #step4 {
+        background-color: #f69dad;
+    }
+    
+    .lable {
+        font-family: 'Poppins', sans-serif;
+        font-weight: 600;
+        font-size: 30px;
+    }
+    
+    .fa {
+        cursor: pointer;
+        font-size: 96px;
+        transition: all 0.3s
+    }
+    
+    .fa:hover {
+        transform: scale(1.1, 1.1);
+    }
+    
+    .lable-description {
+        font-family: 'Poppins', sans-serif;
+        font-size: 14px;
+        letter-spacing: 0.5px;
+        word-spacing: 0.5px;
+        line-height: 1.6;
+        padding: 12px;
+        margin: 6px;
+    }
+    /* css for icon id section */
+    
+    #icon-section {
+        background-color: #f7eee2;
+    }
+    
+    .fresh-food-text {
+        color: #91ac41;
+        font-size: 24px;
+        font-family: cursive;
+    }
+    
+    .fresh-food-heading {
+        font-family: 'Poppins', sans-serif;
+        font-size: 44px;
+        font-weight: 600;
+    }
+    
+    .fresh-food-description {
+        font-size: 18px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 550;
+        color: #8b8b99;
+        letter-spacing: 0.5px;
+    }
+    
+    .fa-camera {
+        background-color: #e3b375;
+        font-size: 60px;
+        color: white;
+        padding: 38px;
+        border-radius: 100%;
+        text-align: center;
+    }
+    
+    .fa-rocket {
+        background-color: #e3b375;
+        font-size: 60px;
+        color: white;
+        padding: 38px;
+        border-radius: 100%;
+        text-align: center;
+    }
+    
+    .fa-twitter {
+        background-color: #e3b375;
+        font-size: 60px;
+        color: white;
+        padding: 38px;
+        border-radius: 100%;
+        text-align: center;
+    }
+    
+    .fa-weixin {
+        background-color: #e3b375;
+        font-size: 60px;
+        color: white;
+        padding: 38px;
+        border-radius: 100%;
+        text-align: center;
+    }
+    
+    .item-heading {
+        font-family: 'Poppins', sans-serif;
+        font-size: 24px;
+        font-weight: 600;
+        text-align: center;
+    }
+    
+    .item-description {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 17px;
+        letter-spacing: 0.5px;
+        font-weight: 400;
+        color: #8b8b99;
+        text-align: center;
+    }
+    /* css for testimonial section*/
+    
+    .testimonial {
+        background-color: #f5f6fb;
+        border-top-left-radius: 45px;
+        border-bottom-left-radius: 45px;
+        border-bottom-right-radius: 45px;
+        box-sizing: border-box;
+    }
+    
+    .testimonial:hover {
+        box-shadow: 2px 2px 7px rgb(116, 112, 112);
+        cursor: pointer;
+    }
+    
+    .message {
+        font-family: 'Arima', cursive;
+        font-size: 14px;
+        letter-spacing: 0.5px;
+        font-style: Italic;
+        color: black;
+        text-align: center;
+    }
+    /* css for subscribe section */
+    
+    #right {
+        background-image: url('https://edyoda.s3.ap-south-1.amazonaws.com/public/strawberry-white.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    #follow {
+        font-size: 48px;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-top: 100px;
+    }
+    
+    #follow-text {
+        font-size: 20px;
+        color: gray;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    
+    #Subscribe-email {
+        background-color: white;
+        color: gray;
+        outline: none;
+        border: none;
+        font-size: 20px;
+        font-weight: 500;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        border-radius: 8px;
+    }
+    
+    #button {
+        background-color: #f69dad;
+        color: white;
+        text-transform: uppercase;
+        border: none;
+        border-radius: 8px;
+        font-weight: 600px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 20px;
+        cursor: pointer;
+    }
+    
+    #button:hover {
+        background-color: transparent;
+        border: 0.5px solid #f69d;
+        color: #f69d;
+    }
+    
+    #stats-section {
+        background-color: #f6fcfa;
+    }
+    /* css for stats section */
+    
+    .stats-text>h1 {
+        font-size: 44px;
+    }
+    
+    .stats-text>p {
+        color: #57e3b5;
+        font-size: 20px;
+    }
+    /* css for video section */
+    
+    #video-text>h1 {
+        color: gray;
+        font-size: 48px;
+    }
+    
+    .line-separator {
+        width: 100px;
+        height: 1px;
+        background-color: #e3b375;
+        display: inline-block;
+        margin-bottom: 36px;
+    }
+    /* css for contact section */
+    
+    .contact-us-text {
+        font-family: 'Splash', cursive;
+        color: green;
+        font-size: 28px;
+        margin: 0;
+    }
+    
+    .address-heading {
+        font-weight: 700;
+        font-size: 44px;
+        font-family: 'Gentium Book Plus', serif;
+    }
+    
+    .address-text {
+        color: #8b8b99;
+        font-family: 'Poppins', sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        letter-spacing: 0.5px;
+        line-height: 1.5;
+    }
+    
+    .store-city {
+        font-family: 'Poppins', sans-serif;
+        font-weight: 600;
+        font-size: 24px;
+    }
+    
+    .store-add {
+        font-family: 'Poppins', sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        color: #8b8b99;
+        letter-spacing: 0.5px;
+        line-height: 2;
+    }
+    /* css for footer*/
+    
+    footer {
+        background-color: rgb(29, 27, 27);
+        height: 80px;
+    }
